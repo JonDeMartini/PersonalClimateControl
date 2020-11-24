@@ -46,7 +46,7 @@ Water blocks|Big enough water blocks to accommodate the TECs.|[Water Cooling Blo
 Radiator|Main source of cooling the hot side of the TECs.  I used a 360mm x 120mm radiator.|[360mm x 120mm Radiator](https://www.amazon.com/gp/product/B01D84P0WM/)|![Radiator](/images/Radiator_and_Fans.jpg)|1
 DC fans|Used to cool the radiator.  You want fans that will move a lot of air.  Ideally the radiator needs to stay near ambient temperature.|[12V DC Fans](https://www.amazon.com/gp/product/B07PS2GDRS/)||3
 1-2A Dual H-Bridge|A lower power Dual H-Bridge used to drive the DC fans and DC pumps|[Dual H-Bridge 2A](https://www.amazon.com/gp/product/B06X9D1PR9/)|![Dual H-Bridge](/images/Dual_H_Bridge.jpg)|2
-6-7A Dual H-Bridge|A higher power Dual H-Bridge used to drive the TECs|[Dual H-Bridge 7A](https://www.amazon.com/gp/product/B06XGD5SCB/)|![7A Dual H-Bridge](/images/Dual_H_Bridge_High_Amp.jpg)|2
+6-7A Dual H-Bridge|A higher power Dual H-Bridge used to drive the TECs|[Dual H-Bridge 7A](https://www.amazon.com/gp/product/B06XGD5SCB/)|![7A Dual H-Bridge](/images/Dual_H_Bridge_High_Amp.png)|2
 DC Regulator|Used to convert 12V from the vehicle/power supply to 5V to drive the microcontroller and the accessories (uLCD and Bluetooth).  Note that if you change microcontrollers you might need to provide 3.3V instead.|[DC Regulator](https://www.amazon.com/gp/product/B01MQGMOKI/)|![DC Regulator](/images/DC_Regulator.jpg)|1
 Flow Sensors|Used to determine pump health.|[Flow Sensor](https://www.amazon.com/gp/product/B07MY76NCV/)|![Flow Sensor](/images/Flow_Sensor.jpg)|2
 Thermistors|Measures the temperature of the water blocks|[Thermistors](https://www.amazon.com/gp/product/B07JGJKPT9/)|![Thermistor](/images/Thermistor.jpg)|2
