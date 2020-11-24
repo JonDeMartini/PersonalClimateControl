@@ -122,6 +122,10 @@ The following schematic shows everything is connected (click for large version):
 
 ![Schematic and circuit diagram](/images/Personal_Climate_Control_Schematic_4k.png)
 
+Just the mbed connections:
+
+![mbed connections](/images/mbed_Connections.png)
+
 The TECs should be securely sandwiched between the water blocks. Thermal paste should be used to make contact between the water blocks and the TECs.  The thermistors should be firmly attached to each side of the water block.  I used electrical tape on the thermistors and tape along with zip ties to secure the entire water block assembly together.  This should be kept well separated from the Dual H-Bridges, microcontroller, and all the power distribution of the rest of the project.
 
 ![Water Block and TEC Assembly](/images/Water_Block_and_TEC_Assembly.jpg)
