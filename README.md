@@ -42,18 +42,18 @@ Item | Description | Link | Picture|Quantity
 Thermoelectric Cooler (TEC1-12706)|6A TEC Used to heat and cool.  I used 4 TECs rated at a maximum current of 6A each, but as configured they rarely draw much more than 3.5A.|[TEC](https://www.amazon.com/gp/product/B01IT8SAZG/)|![TEC](/images/TEC1-12706.jpg)|4
 Cooling Shirt|Any Cooling Shirt that can flow water through soft tubing such as those availabe from CoolShirt Systems|[Cooling Shirt](https://www.amazon.com/gp/product/B000K3GHZY)|![Cooling Shirt](/images/Cooling_Shirt.jpg)|1
 DC Pump|A good DC pump, I used the model listed here, but you'd be advised to get a better on, at least for the shirt loop.  You want something with plenty of lift to get water moving in all the small tubing of the shirt.  The shirt I have has over 15m of tubing.|[DC Pump](https://www.amazon.com/gp/product/B085NQ5VVJ/)|![DC Pump](/images/DC_Pump_12V.png)|2
-Water blocks|Big enough water blocks to accommodate the TECs.|[Water Cooling Block](https://www.amazon.com/gp/product/B07TDQ1M32/)||2
-Radiator|Main source of cooling the hot side of the TECs.  I used a 360mm x 120mm radiator.|[360mm x 120mm Radiator](https://www.amazon.com/gp/product/B01D84P0WM/)||1
+Water blocks|Big enough water blocks to accommodate the TECs.|[Water Cooling Block](https://www.amazon.com/gp/product/B07TDQ1M32/)|![Water block](/images/Water_Block.jpg)|2
+Radiator|Main source of cooling the hot side of the TECs.  I used a 360mm x 120mm radiator.|[360mm x 120mm Radiator](https://www.amazon.com/gp/product/B01D84P0WM/)|![Radiator](/images/Radiator_and_Fans.jpg)|1
 DC fans|Used to cool the radiator.  You want fans that will move a lot of air.  Ideally the radiator needs to stay near ambient temperature.|[12V DC Fans](https://www.amazon.com/gp/product/B07PS2GDRS/)||3
-1-2A Dual H-Bridge|A lower power Dual H-Bridge used to drive the DC fans and DC pumps|[Dual H-Bridge 2A](https://www.amazon.com/gp/product/B06X9D1PR9/)||2
-6-7A Dual H-Bridge|A higher power Dual H-Bridge used to drive the TECs|[Dual H-Bridge 7A](https://www.amazon.com/gp/product/B06XGD5SCB/)||2
-DC Regulator|Used to convert 12V from the vehicle/power supply to 5V to drive the microcontroller and the accessories (uLCD and Bluetooth).  Note that if you change microcontrollers you might need to provide 3.3V instead.|[DC Regulator](https://www.amazon.com/gp/product/B01MQGMOKI/)||1
-Flow Sensors|Used to determine pump health.|[Flow Sensor](https://www.amazon.com/gp/product/B07MY76NCV/)||2
-Thermistors|Measures the temperature of the water blocks|[Thermistors](https://www.amazon.com/gp/product/B07JGJKPT9/)||2
+1-2A Dual H-Bridge|A lower power Dual H-Bridge used to drive the DC fans and DC pumps|[Dual H-Bridge 2A](https://www.amazon.com/gp/product/B06X9D1PR9/)|![Dual H-Bridge](/images/Dual_H_Bridge.jpg)|2
+6-7A Dual H-Bridge|A higher power Dual H-Bridge used to drive the TECs|[Dual H-Bridge 7A](https://www.amazon.com/gp/product/B06XGD5SCB/)|![7A Dual H-Bridge](/images/Dual_H-Bridge_High_Amp.jpg)|2
+DC Regulator|Used to convert 12V from the vehicle/power supply to 5V to drive the microcontroller and the accessories (uLCD and Bluetooth).  Note that if you change microcontrollers you might need to provide 3.3V instead.|[DC Regulator](https://www.amazon.com/gp/product/B01MQGMOKI/)|![DC Regulator](/images/DC_Regulator.jpg)|1
+Flow Sensors|Used to determine pump health.|[Flow Sensor](https://www.amazon.com/gp/product/B07MY76NCV/)|![Flow Sensor](/images/Flow_Sensor.jpg)|2
+Thermistors|Measures the temperature of the water blocks|[Thermistors](https://www.amazon.com/gp/product/B07JGJKPT9/)|![Thermistor](/images/Thermistor.jpg)|2
 Resistors|Used in the Thermistor circuit.  Must be matched to the thermistor selected.  Thermistors I used were 100k 1%, so used similarly valued Resistors|||2
-Microcontroller|mbed NXP LPC1768|[mbed LPC1768](https://www.digikey.com/en/product-highlight/n/nxp-semi/mbed-lpc1768-development-board)||1
-Bluetooth UART|I used a Bluefruit LE UART from Adafruit, but any Bluetooth device that can connect as a serial UART should work.|[Adafruit Bluefruit LE UART Friend](https://www.adafruit.com/product/2479)||1
-uLCD panel|Optional.  Used mainly for debugging.  I used a uLCD-144-G2 from 4D Systems Pty Ltd|[uLCD-144-G2](https://www.digikey.com/en/products/detail/4d-systems-pty-ltd/ULCD-144-G2/5725469)||1
+Microcontroller|mbed NXP LPC1768|[mbed LPC1768](https://www.digikey.com/en/product-highlight/n/nxp-semi/mbed-lpc1768-development-board)|![mbed](/images/mbed.png)|1
+Bluetooth UART|I used a Bluefruit LE UART from Adafruit, but any Bluetooth device that can connect as a serial UART should work.|[Adafruit Bluefruit LE UART Friend](https://www.adafruit.com/product/2479)|![Bluefruit](/images/Bluefruit_UART.jpg)|1
+uLCD panel|Optional.  Used mainly for debugging.  I used a uLCD-144-G2 from 4D Systems Pty Ltd|[uLCD-144-G2](https://www.digikey.com/en/products/detail/4d-systems-pty-ltd/ULCD-144-G2/5725469)|![uLCD](/images/uLCD.jpg)|1
 Various tubing|Used in the radiator water loop and shirt water loop. Depending on how you setup your tubing you may also need various fittings.|||As needed
 Water reservoir or valves|You need some way to fill and bleed the water loops.  I used valves since I couldn't source a reasonably priced reservoir in the time I had to make this project, but I highly recommend using good reservoir instead.  If you go with valves you'll need two T's and two valves for each loop.  Otherwise you'll need a reservoir for each loop.|||2+
 Enclosure|You need something to contain everything.  Keep the water blocks separate from the power and electronics.  The cold side of the TECs will cause condensation.|||1
@@ -61,9 +61,9 @@ Wire in various gauges|You need to use appropriate gauges for the amount of powe
 Heatshrink/solder|There will be some custom wiring needed.|||As needed
 Standoffs|You need some way to attach the boards to the enclosure.  Standoffs work best when you have matching machine screws and a tap and die set.|||As needed
 Breadboard|To wire up all the sensors and controls to the mbed microcontroller.  Could use a custom PCB or solder directly to pins, but that isn't recommended.|||As needed
-12V 30A Power Supply|Need a pretty beefy power supply to test with.|[12V 30A DC Power Supply](https://www.amazon.com/gp/product/B06VWV5YCH/)||1
+12V 30A Power Supply|Need a pretty beefy power supply to test with.|[12V 30A DC Power Supply](https://www.amazon.com/gp/product/B06VWV5YCH/)|![Power Supply](/images/Power_Supply_12V_30A.jpg)|1
 Power Socket and Switch|To connect the DC Power supply to A/C|[Power Socket and Switch](https://www.amazon.com/gp/product/B07RRY5MYZ/)||1
-Junction Block|Over 20A of power needs to be distributed. Standard junctions aren't quite up to the task and would be a fire hazard so use something like these hefty power junctions.|[Power and Ground Junctions](https://www.amazon.com/gp/product/B079R4VDJC/)||1
+Junction Block|Over 20A of power needs to be distributed. Standard junctions aren't quite up to the task and would be a fire hazard so use something like these hefty power junctions.|[Power and Ground Junctions](https://www.amazon.com/gp/product/B079R4VDJC/)|![Power Junction](/images/Power_Junction.png)|1
 
 
 ## Dual H-Bridges Connection
@@ -96,7 +96,7 @@ This project uses a Thermistor library that I developed for mbed.  It implements
 
 Use the iOS or Android Bluefruit Connect app to control the Personal Climate Control hardware.  Search for Bluefruit Connect on the app store to find it.
 
-![Bluefruit Connect app search](/images/Bluefruit_App.jpg)
+![Bluefruit Connect app search](/images/Bluefruit_App.JPG)
 
 Once downloaded launch the app and if Bluetooth is turned on it will show the Adafruit Bluefruit LE is available to connect. Connect to it. The first time it connects there may be an automatic firmware update needed.  Perform that and continue.
 
@@ -118,14 +118,40 @@ Turning the pumps on can be very helpful when bleeding air from the system.  It 
 
 ## Schematics and Construction
 
-The following schematic shows everything is connected:
+The following schematic shows everything is connected (click for large version):
 
 ![Schematic and circuit diagram](/images/Personal_Climate_Control_Schematic_4k.png)
 
-The TECs should be securely sandwiched between the water blocks. Thermal paste should ideally be used to make contact between the water blocks and the TECs.  The thermistors should be firmly attached to each side of the water block.  I used electrical tape on the thermistors and tape along with zip ties to secure the entire water block assembly together.  This should be kept well separated from the Dual H-Bridges, microcontroller, and all the power distribution of the rest of the project.
+The TECs should be securely sandwiched between the water blocks. Thermal paste should be used to make contact between the water blocks and the TECs.  The thermistors should be firmly attached to each side of the water block.  I used electrical tape on the thermistors and tape along with zip ties to secure the entire water block assembly together.  This should be kept well separated from the Dual H-Bridges, microcontroller, and all the power distribution of the rest of the project.
 
 ![Water Block and TEC Assembly](/images/Water_Block_and_TEC_Assembly.jpg)
 
 I ended up using acrylic to make a custom enclosure, but there are commercial products that would work as well or better.
 
+## Function
+
+The logic running on the mbed is state machine that monitors the temperature of the water blocks and the flow sensors.  It will turn on and off the DC Fans, each DC pump separately and the TEC function (heating or cooling) as well as the power level (through PWM).  Each TEC can be controlled individually, but the final logic always sets each TEC exactly the same.
+
+The User input over bluetooth sets both a target temperature and a user input state.  The User input state could be Off, Cooling, Heating, Radiator Pump On or Shirt Pump On.  A combination of the sensors and user input state are used to determine a System State.  For debugging the User Input State, System State, Temperatures of the Radiator and Shirt Water blocks as well as the current flow rates of the Radiator and Shirt Flow Sensors are displayed on the uLCD.
+
+When Cooling is first started the system state will begin to precool the cooling water block.  The radiator pump and DC fans will be turned on to cool the hot side of the TECs, but the shirt pump will not be turned on.  This will cool the cold side until either a set time has passed or the block is near freezing.
+
+The shirt side pump will then be engaged and cooling will begin.
+
+Heating is similar in having preheat and heating states.
+
+Several other states exist for cases where the pumps are turned on but no flow is detected for an extended period.  Or when the cooling isn't keeping up with demand a cool down state is entered where the shirt pump is temporarily shut down and the cooling block is chilled again.
+
+## Performance
+
+The power usage of this system was intentionally limited to around 20A at 12V as that is a common power usage for motorcycle heating gear.  It definitely works and I've seen it chill down to 13°C.  Typically it chills closer to 17°C-18°C.  Which while cooler than ambient it doesn't feel quite as refreshing as I would like.
+
+Perhaps counterintuitively, wearing a winter motorcycle jacket increases the cooling effect.  The follows the expectation from thermodynamics as you are both removing body heat while also insulating from the outside heat.
+
 ## Improvements
+
+My implementation of the project is designed to fit into a backpack and be worn on a motorcycle.  While it does fit in a backpack and would function it doesn't feel particularly safe.  The next iteration will be built into a top box or luggage for one of my motorcycles.  I will also invest in better pumps and seek to replace the TEC1-12706 with more capable models.  The biggest limit on that front will be how many amps can be reliably used without overloading the charging system of the bike.  Much past the current 20A and thicker gauge cables will be needed as well.
+
+For an indoor application only better pumps, a 40A or 50A 12V power supply, and better TECs are all that are needed.  Similar systems costing over $3000 are used by surgeons to presumably keep from sweating into patients during operation.
+
+Film applications to cool off actors in heavy prosthetics between takes might also be possible.
