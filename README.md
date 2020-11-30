@@ -1,5 +1,3 @@
-# PersonalClimateControl
-Control TECs connected to a cooling shirt to provide personal heating and cooling.
 # Personal Climate Control
 Control Thermoelectric Coolers (TECs) connected to a cooling shirt to provide personal heating and cooling.
 
@@ -29,13 +27,13 @@ For debugging a program the microcontroller can be connected to a PC and tempera
 
 ## Presentation
 
-Insert youtube link here.
+[Personal Climate Control Presentation](https://youtu.be/jpcdbMLaEIc)
 
 ## Demonstration
 
-Insert youtube link here.
+[Personal Climate Control Demonstration](https://youtu.be/CU2Co65updQ)
 
-## Inventory
+## Parts List
 
 Item | Description | Link | Picture|Quantity
 -----|-------------|------|--------|--------
